@@ -206,6 +206,8 @@ user_pref("_user.js.parrot", "syntax error @ USER CUSTOM PREFERENCES");
 /**
  * misc. personal preferences
  */
+user_pref("keyword.enabled", false);
+user_pref("dom.security.https_only_mode", true); // [FF76+]
 user_pref("accessibility.tabfocus", 3);                             // which elements can be focused using the Tab key - 1=text fields, 2=all form fields except text, 4=links ony (values can be added together)
 user_pref("app.update.service.enabled", false);                     // [SET] [UNBREAK=true] whether to enable Firefox update service (Windows only)
 user_pref("app.update.silent", false);                              // [SET] whether to show notifications when updates are applied
