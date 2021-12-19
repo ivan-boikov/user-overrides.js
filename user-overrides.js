@@ -343,7 +343,7 @@ user_pref("mousewheel.min_line_scroll_amount", 10);                 // if the CS
 user_pref("keyword.enabled", true);
 user_pref("dom.security.https_only_mode", false); // [FF76+]
 user_pref("browser.download.useDownloadDir", true);
-
+user_pref(identity.sync.tokenserver.uri, "http://192.168.2.2:5000/token/1.0/sync/1.5");
 /*
  * -------------------------------------
  * YOUR CUSTOM CODE GOES ABOVE THIS LINE
