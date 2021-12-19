@@ -206,8 +206,6 @@ user_pref("_user.js.parrot", "syntax error @ USER CUSTOM PREFERENCES");
 /**
  * misc. personal preferences
  */
-user_pref("keyword.enabled", false);
-user_pref("dom.security.https_only_mode", true); // [FF76+]
 user_pref("accessibility.tabfocus", 3);                             // which elements can be focused using the Tab key - 1=text fields, 2=all form fields except text, 4=links ony (values can be added together)
 user_pref("app.update.service.enabled", false);                     // [SET] [UNBREAK=true] whether to enable Firefox update service (Windows only)
 user_pref("app.update.silent", false);                              // [SET] whether to show notifications when updates are applied
@@ -339,6 +337,12 @@ user_pref("mousewheel.default.delta_multiplier_x", 85);             // sets the 
 user_pref("mousewheel.default.delta_multiplier_y", 85);             // sets the y-axis step size
 user_pref("mousewheel.default.delta_multiplier_z", 85);             // sets the z-axis step size
 user_pref("mousewheel.min_line_scroll_amount", 10);                 // if the CSS line height is smaller than this value in pixels, each scroll click will scroll this amount
+
+
+// ivan
+user_pref("keyword.enabled", true);
+user_pref("dom.security.https_only_mode", false); // [FF76+]
+user_pref("browser.download.useDownloadDir", true);
 
 /*
  * -------------------------------------
